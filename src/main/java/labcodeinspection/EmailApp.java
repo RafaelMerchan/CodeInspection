@@ -2,6 +2,7 @@ package labcodeinspection;
 
 import java.util.Scanner;
 
+@SuppressWarnings("PMD.UseUtilityClass")
 public class EmailApp {
 
 	public static void main(String[] args) {
@@ -22,5 +23,8 @@ public class EmailApp {
 		email.setDeparment(depChoice);
 		email.generateEmail();
 		email.showInfo();
+		
+		
 	}
+	
 }
